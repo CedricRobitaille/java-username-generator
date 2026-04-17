@@ -6,7 +6,7 @@ public class Main {
       String firstName = sc.nextLine().trim();
       String lastName = sc.nextLine().trim();
 
-      String username = firstName + lastName;
+      String username = (firstName + lastName).toLowerCase();;
 
       // 2 options:
 
